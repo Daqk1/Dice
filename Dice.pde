@@ -1,9 +1,8 @@
-Die die;
 int total = 0; 
 void setup() {
   noLoop();
   size(500, 500);
-  die = new Die(50, 50);
+  Die die = new Die(50, 50);
 }
 void draw() {
   die.roll();
