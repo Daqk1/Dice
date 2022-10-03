@@ -1,5 +1,5 @@
 Die die;
- int total = 0; 
+int total = 0; 
 void setup() {
   noLoop();
   size(500, 500);
