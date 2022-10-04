@@ -29,7 +29,6 @@ class Die {
     chance = (int)(Math.random()*6) + 1;
     amount = chance;
     total += amount;
-    System.out.println(total);
   }
   void show() {
     stroke(10);
